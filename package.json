@@ -1,0 +1,26 @@
+{
+  "name": "loot-deep",
+  "version": "1.0.0",
+  "description": "Grab values deep inside JavaScrip objects.",
+  "main": "./src/deep.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewluetgers/deep.git"
+  },
+  "keywords": [
+    "deep",
+    "get",
+    "set",
+    "object",
+    "access"
+  ],
+  "author": "Andrew Luetgers <andrew.luetgers@gmail.com> (http://www.andrewluetgers.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewluetgers/deep/issues"
+  },
+  "homepage": "https://github.com/andrewluetgers/deep"
+}
