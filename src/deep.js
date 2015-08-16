@@ -30,7 +30,19 @@ module.exports = {
 		});
 
 		return structure;
+	},
+
+	in:  function(structure, path) {
+		var isIn = false,
+			current = structure,
+			path = !path ? [] : (path.substr ? path.split('.') : path || []);
+
+		path.forEach(function(property) {
+			if (isIn = current && property in current) {
+				current = current[property];
+			}
+		});
+
+		return isIn;
 	}
-
-
 };
